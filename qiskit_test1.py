@@ -22,3 +22,5 @@ qc.measure([0, 1], [0, 1])
 # Print confirmation and the circuit diagram
 print("Qiskit is successfully loaded and running in Spyder!")
 print(qc)
+
+print("Hello World")
