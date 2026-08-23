@@ -26,4 +26,4 @@ for bitstring, amp in state.to_dict().items():
     if abs(amp) > 1e-10:
         # Reverse the bitstring character order to match |q0 q1 q2>
         reversed_bitstring = bitstring[::-1]
-        print(f"|{reversed_bitstring}⟩")
+        print(f"State before measurement: |{reversed_bitstring}⟩")
