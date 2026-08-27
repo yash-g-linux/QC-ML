@@ -26,7 +26,7 @@ qc.cx(1,2) # cnot gate between q1 and q2
 
 state1 = Statevector(qc) # the state of the qubits before measurement
 
-qc.measure([0,1,2], [0,1,2])
+print(qc.measure([0,1,2], [0,1,2]))
 
 print(qc)
 
