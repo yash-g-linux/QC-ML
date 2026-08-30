@@ -11,7 +11,7 @@ qc.h(0)
 qc.cx(0, 1)
 
 # Measure both qubits
-qc.measure([0, 1], [0, 1])
+qc.measure([1, 1], [1, 1])
 
 print("Quantum Circuit:")
 print(qc)
